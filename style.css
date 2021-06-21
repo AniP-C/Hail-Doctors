@@ -1,0 +1,238 @@
+body{
+background-color: rgb(87 148 199 / 22%);
+
+    /* background-color: rgb(220, 227, 235); */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7rem;
+    /* background-image: url("aboutMeImage/backgroundlargeimg.jpg"); */
+
+
+}
+
+::selection {
+    color: red;
+    background: yellow;
+  }
+
+p{
+    text-justify: auto;
+    padding: 1rem;
+    
+
+}
+
+h1  {
+    padding: 1rem;
+}
+h4{
+    padding: 1rem;
+}
+
+
+
+/* 
+font-family: 'Great Vibes', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oxygen', sans-serif;
+ */
+
+/* Class selectors */
+ 
+
+    
+
+ .navbar{
+     font-family:'Oxygen' , sans-serif;
+     color: lawngreen;
+     /* background-color: #3352d880;  */
+     
+background-color: rgb(5, 97, 69);    
+ }
+
+
+ .opacity{
+    opacity: 0.5;
+    
+}
+
+ .collapse{
+     justify-content: center;
+     
+    }
+
+
+.img-fluid{
+    border-radius: 10px;
+    width:60%;
+    height: 30rem;
+    justify-content: center;
+    margin: auto;
+    opacity: 0.8;
+
+}
+
+
+
+.rounded{
+    width: 22rem;
+    height: 22rem;
+    padding: 1rem;
+
+}
+
+/* .card-deck{
+    justify-content: center;
+    max-width: 80%;
+} */
+.card-deck{
+    padding:2rem;
+}
+/* .suffer-doc-div-1{
+    padding: 10rem;
+    padding-bottom: 1rem;
+}
+
+
+.suffer-doc-div-2{
+    padding: 10rem;
+} */
+
+/* .attack-style{
+
+    justify-content: center;
+
+    width: 22rem;
+height: 22rem;
+} */
+.my-bg-style{
+    background-color:#4e5fa0;
+}
+
+
+.style-me{
+    font-family: 'Great Vibes', cursive;
+     font-size: 3rem ; 
+     text-decoration: none; 
+     list-style: none;
+     text-shadow: blueviolet;
+     text-shadow: 5px;
+}
+
+
+
+/* ------------------------------  images page ----------------------- */
+
+.styleImageContainer:hover .styleHoverBox{
+    opacity: 1;
+}
+
+.doc-attack-style{
+    padding: 2rem;
+    border: 1px dashed rgb(36, 160, 177);
+    transition: 2s ease;
+  backface-visibility: hidden;
+
+}
+.doc-attack-style:hover{
+    box-shadow: 5px 5px 8px 5px rgba(0, 140, 186, 0.5);
+}
+.styleImageContainer:hover .doc-attack-style {
+    opacity: 0.3;
+  }
+
+.styleHoverBox{
+
+    transition: 2s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.styleText a{
+    background-color: #24a5c5;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-decoration:wavy;
+    border-radius: 5%;
+}
+.styleText a:hover{
+    box-shadow: 4px 3px 8px 5px #27a4adb4;
+    border-radius: 10px;
+    
+}
+
+
+
+/* ---------------------------------form style------------------------------- */
+
+
+.styleForm{
+    /* margin: auto;
+    text-align:justify;
+    padding: 2rem;
+    background-color: darkgrey;
+    height: 60%;
+    width: 80;
+
+ */
+/* height: 60rem;
+width: 40rem; */
+background-color: darkgrey;
+margin: auto;
+margin-top: 5rem;
+padding-top: 5rem;
+}
+
+
+
+.styleFormInput{
+
+justify-content: right;
+align-content: center;
+float: right;
+
+}
+
+.styleButton{
+
+    background-color: aqua;
+    border: blueviolet ;
+    border-style: dotted;
+}
+.styleButton:hover{
+
+    background-color: chartreuse;
+    box-shadow: 3px 3px 5px 5px crimson;
+}
+
+
+
+
+
+
+
+
+/* ----------------- about me styling ------------------------------------ */
+
+.style-about h1,p{
+    padding:0;
+    border: 1.5rem;
+    /* font-family: 'Great Vibes', cursive; */
+    justify-content: space-between;
+    font-weight: 600;
+
+
+}
+
+
+.style-about{
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    background-image: url("aboutMeImage/backgroundlargeimg.jpg");
+
+}
